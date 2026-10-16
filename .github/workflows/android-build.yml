@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -32,8 +32,14 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Set up Android SDK (accepts licenses)
-        uses: android-actions/setup-android@v3
+      # ubuntu-latest me Android SDK pehle se installed hai. setup-android action 'tools' package
+      # dhoondh ke fail ho raha tha, isliye sirf licenses accept karte hain.
+      - name: Accept Android SDK licenses
+        run: |
+          export ANDROID_HOME="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$ANDROID_HOME" >> "$GITHUB_ENV"
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
 
       # Repo me gradlew / gradle-wrapper.jar nahi hai, isliye Gradle 9.3.1 direct install.
       - name: Set up Gradle
@@ -84,24 +90,27 @@ jobs:
       - name: Build debug APK, release APK and release AAB
         run: gradle assembleDebug assembleRelease bundleRelease --stacktrace
 
-      - name: Upload debug APK
+      - name: Collect outputs
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/debug/*.apk dist/SmartCalculator-debug.apk
+          cp app/build/outputs/apk/release/*.apk dist/SmartCalculator-release.apk
+          cp app/build/outputs/bundle/release/*.aab dist/SmartCalculator-release.aab
+          ls -lh dist
+
+      - name: Upload APK + AAB artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: smart-calculator-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          name: smart-calculator-apk-aab
+          path: dist/*
           if-no-files-found: error
 
-      - name: Upload release APK
-        uses: actions/upload-artifact@v4
+      # Direct download (bina zip ke): repo ke Releases section me APK + AAB attach hoti hai.
+      - name: Publish GitHub Release
+        if: github.event_name != 'pull_request'
+        uses: softprops/action-gh-release@v2
         with:
-          name: smart-calculator-release-apk
-          path: app/build/outputs/apk/release/*.apk
-          if-no-files-found: error
-
-      - name: Upload release AAB
-        uses: actions/upload-artifact@v4
-        with:
-          name: smart-calculator-release-aab
-          path: app/build/outputs/bundle/release/*.aab
-          if-no-files-found: error
-          
+          tag_name: build-${{ github.run_number }}
+          name: Smart Calculator build #${{ github.run_number }}
+          body: "Auto build from commit ${{ github.sha }}"
+          files: dist/*
