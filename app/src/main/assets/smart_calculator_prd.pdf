@@ -1,0 +1,534 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> /ProcSet [/PDF /Text] >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5717 >>
+stream
+q 0.85 0.90 0.95 rg 0 0 m 45.0 809.89 m 550.28 809.89 l 0.75 w 0.82 0.86 0.90 RG S Q
+BT /F3 8 Tf 0.35 0.45 0.55 rg
+45.0 813.89 Td (Smart Calculator - Complete System PRD & Architecture Specification) Tj ET
+BT /F2 8 Tf 0.15 0.40 0.80 rg
+465.28 813.89 Td (v1.8 | Build 10) Tj ET
+q 0.82 0.86 0.90 RG 0.75 w 45.0 32 m 550.28 32 l S Q
+BT /F1 8 Tf 0.45 0.50 0.58 rg
+45.0 20 Td (Google AI Studio Build - Production Android Technical Specification) Tj ET
+BT /F1 8 Tf 0.45 0.50 0.58 rg 495.28 20 Td (Page 1 of 4) Tj ET
+q 0.114 0.306 0.847 rg 45.0 681.89 505.28 100 re f Q
+q 0.024 0.714 0.831 rg 45.0 681.89 505.28 4 re f Q
+BT /F2 20 Tf 1 1 1 rg
+65.0 745.89 Td (SMART CALCULATOR) Tj ET
+BT /F3 11 Tf 0.85 0.92 1.0 rg
+65.0 725.89 Td (Complete Product Requirements Document \(PRD\) & Engineering Specification) Tj ET
+BT /F1 9 Tf 0.90 0.95 1.0 rg
+65.0 701.89 Td (Comprehensive Product Requirements, Vision Pipeline & Codebase Blueprint) Tj ET
+q 0.96 0.97 0.98 rg 0.88 0.91 0.94 RG 0.8 w 45.0 479.89 505.28 184 re B Q
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 645.89 Td (Application Name:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 645.89 Td (Smart Calculator \(Point. Snap. Solved.\)) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 623.89 Td (Android Package Name:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 623.89 Td (com.aistudio.smartcalc.wzqvxy) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 601.89 Td (Current Version:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 601.89 Td (Version 1.8 \(versionCode: 10\)) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 579.89 Td (Architecture Framework:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 579.89 Td (100% Kotlin | Jetpack Compose M3 | Clean MVVM | Coroutines Flow) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 557.89 Td (Vision AI Models:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 557.89 Td (Google Gemini Flash Vision API \(gemini-2.5-flash / gemini-1.5-flash\)) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 535.89 Td (Local Math Engine:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 535.89 Td (MathExpressionEvaluator \(BODMAS/PEMDAS, Roman Numerals, Equations\)) Tj ET
+BT /F2 9 Tf 0.15 0.22 0.35 rg
+61.0 513.89 Td (Min SDK / Target SDK:) Tj ET
+BT /F1 9 Tf 0.25 0.32 0.45 rg
+200.0 513.89 Td (Min SDK 24 \(Android 7.0\) | Target SDK 36 \(Android 16\)) Tj ET
+q 0.114 0.306 0.847 rg 45.0 437.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 437.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 441.89 Td (1. Product Overview & Strategic Vision) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 420.89 Td (Smart Calculator is a production-grade Android utility engineered to solve one of the most frustrating) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 407.89 Td (daily math bottlenecks: manually transcribing numbers, itemized bills, tilted handwritten notes, and) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 394.89 Td (algebraic equations into traditional calculator screens.) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 377.89 Td (With the 'Point. Snap. Solved.' interaction paradigm, the user captures any physical receipt, whiteboard) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 364.89 Td (note, student homework sheet, or rough grocery list. The system leverages an on-device image pre-processing) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 351.89 Td (pipeline coupled with Google Gemini Vision AI to recognize complex handwriting with 100% precision. It) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 338.89 Td (computes results in milliseconds and provides an interactive breakdown with step-by-step audit trails and) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 325.89 Td (an ultra-smooth manual keypad.) Tj ET
+q 0.94 0.97 1.0 rg 0.70 0.84 0.98 RG 0.8 w 45.0 275.89 505.28 42 re B Q
+q 0.114 0.306 0.847 rg 45.0 275.89 3.5 42 re f Q
+BT /F2 9.5 Tf 0.08 0.24 0.60 rg
+59.0 303.89 Td (CORE VALUE PROPOSITION) Tj ET
+BT /F1 8.5 Tf 0.18 0.26 0.38 rg
+59.0 289.89 Td (Zero-latency handwritten math recognition with 100% accuracy, seamless intermediate step breakdown, foolproof grand total selection, and a buttery-smooth native keypad.) Tj ET
+BT /F2 10.5 Tf 0.12 0.25 0.45 rg
+45.0 247.89 Td (1.1 Target Personas & Use Cases) Tj ET
+q 0.85 0.90 0.95 RG 0.5 w 45.0 244.89 m 550.28 244.89 l S Q
+q 0.114 0.306 0.847 rg 50.0 232.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 229.39 Td (Shoppers & Kirana Stores:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 175.75 229.39 Td ( Instant total calculation of handwritten grocery chits, rough bills, and item) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 216.89 Td (prices with Indian numbering formats.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 205.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 202.39 Td (Students & Educators:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 157.39 202.39 Td ( Verifying multi-step arithmetic, parentheses balancing, Roman numeral problems \(XIV *) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 189.89 Td (5\), and linear algebraic equations.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 178.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 175.39 Td (Professionals & Accountants:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 189.52 175.39 Td ( Cross-checking printed invoice item lists, expense slips, and zig-zag sequential) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 162.89 Td (calculations without manual keying.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 130.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 130.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 134.89 Td (2. System Architecture & Technology Stack) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 113.88999999999999 Td (The application adheres to clean Modern Android Architecture \(MVVM\) with unidirectional data flow \(UDF\),) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 100.88999999999999 Td (100% Kotlin, and Jetpack Compose Material 3 styling:) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> /ProcSet [/PDF /Text] >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 9853 >>
+stream
+q 0.85 0.90 0.95 rg 0 0 m 45.0 809.89 m 550.28 809.89 l 0.75 w 0.82 0.86 0.90 RG S Q
+BT /F3 8 Tf 0.35 0.45 0.55 rg
+45.0 813.89 Td (Smart Calculator - Complete System PRD & Architecture Specification) Tj ET
+BT /F2 8 Tf 0.15 0.40 0.80 rg
+465.28 813.89 Td (v1.8 | Build 10) Tj ET
+q 0.82 0.86 0.90 RG 0.75 w 45.0 32 m 550.28 32 l S Q
+BT /F1 8 Tf 0.45 0.50 0.58 rg
+45.0 20 Td (Google AI Studio Build - Production Android Technical Specification) Tj ET
+BT /F1 8 Tf 0.45 0.50 0.58 rg 495.28 20 Td (Page 2 of 4) Tj ET
+q 0.114 0.306 0.847 rg 45.0 772.89 505.28 19 re f Q
+BT /F2 8.5 Tf 1 1 1 rg
+51.0 778.89 Td (Layer) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+161.0 778.89 Td (Technologies / Libraries) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+356.0 778.89 Td (Purpose) Tj ET
+q 0.98 0.99 1.0 rg 45.0 753.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 753.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 759.89 Td (UI & Presentation) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 759.89 Td (Jetpack Compose, Material 3, Dynamic Color) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 759.89 Td (Declarative, fluid, edge-to-edge adaptive user interface) Tj ET
+q 0.93 0.96 0.99 rg 45.0 734.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 734.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 740.89 Td (Asynchronous Flow) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 740.89 Td (Kotlin Coroutines, StateFlow, Lifecycle-aware) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 740.89 Td (Non-blocking background calculations, instant UI updates) Tj ET
+q 0.98 0.99 1.0 rg 45.0 715.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 715.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 721.89 Td (Camera Subsystem) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 721.89 Td (CameraX \(View, Lifecycle, Camera2\)) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 721.89 Td (Hardware-accelerated viewfinder, tap-to-focus, flash toggle) Tj ET
+q 0.93 0.96 0.99 rg 45.0 696.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 696.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 702.89 Td (Image Processing) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 702.89 Td (Android Canvas, ColorMatrix, Matrix, Unsharp) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 702.89 Td (Contrast stretching, stroke sharpening, 768px normalization) Tj ET
+q 0.98 0.99 1.0 rg 45.0 677.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 677.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 683.89 Td (Vision AI Engine) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 683.89 Td (Gemini 2.5/1.5 Flash Vision REST API) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 683.89 Td (High-accuracy handwriting OCR & math understanding) Tj ET
+q 0.93 0.96 0.99 rg 45.0 658.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 658.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 664.89 Td (Local Math Evaluator) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 664.89 Td (MathExpressionEvaluator \(RPN, BigDecimal\)) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 664.89 Td (Zero-latency in-memory calculation, Roman numerals & BODMAS) Tj ET
+q 0.98 0.99 1.0 rg 45.0 639.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 639.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 645.89 Td (Local Persistence) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 645.89 Td (SharedPreferences, StateSaveable) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 645.89 Td (Remembering theme preferences and active calculator inputs) Tj ET
+q 0.114 0.306 0.847 rg 45.0 605.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 605.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 609.89 Td (3. High-Accuracy Vision OCR & Pre-Processing Pipeline) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 588.89 Td (To achieve 100% recognition on slanted, messy, low-contrast, or unaligned handwriting, raw captured images) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 575.89 Td (pass through a multi-stage pre-processing pipeline prior to cloud inference:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 562.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 559.39 Td (GPU ColorMatrix Normalization:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 198.70000000000002 559.39 Td ( Applies dynamic contrast stretching \(1.45x\) and brightness calibration to) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 546.89 Td (separate faint pencil/pen strokes from paper background.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 535.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 532.39 Td (Stroke Edge Sharpening:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 166.57 532.39 Td ( Enhances stroke borders to clearly distinguish easily confused handwritten characters) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 519.89 Td (\(e.g., '1' vs '7', '0' vs '6', '+' vs 'x', '/' vs '-'\).) Tj ET
+q 0.114 0.306 0.847 rg 50.0 508.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 505.39 Td (Payload Dimension Optimization:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 203.29000000000002 505.39 Td ( Downscales high-resolution camera photos to a max boundary of 768px. This) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 492.89 Td (preserves digit clarity while shrinking JPEG payload to ~40KB, reducing upload transmission latency to) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 480.39 Td (sub-80ms.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 468.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 465.89 Td (Rotational Normalization:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 175.75 465.89 Td ( Detects orientation EXIF metadata and user manual rotation \(90 deg increments\),) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 453.39 Td (ensuring handwriting is perfectly horizontal before analysis.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 421.39 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 421.39 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 425.39 Td (4. Grand Total Selection Logic & Fallback Parsing Engine) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 404.39 Td (A critical challenge in multi-line receipt and calculation OCR is avoiding false positives where) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 391.39 Td (intermediate steps \(e.g., '405'\) are mistaken for the final Grand Total \(e.g., '420'\). Smart Calculator) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 378.39 Td (implements a resilient two-tier resolution strategy:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 364.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 361.89 Td (Prompt-Level Strict Mandate:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 189.52 361.89 Td ( The Gemini Vision prompt explicitly instructs the model to reserve 'grand_total') Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 349.39 Td (strictly for the ultimate bottom line / total sum, classifying all prior lines as itemized steps.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 337.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 334.89 Td (Deterministic Client Fallback:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 198.70000000000002 334.89 Td ( In parseGeminiResponseWithFallbacks\(\), the app verifies if grand_total matches) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 322.39 Td (an intermediate step. If multiple calculation lines exist and a keyword like 'Total', 'Net', or 'Sum' appears) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 309.89 Td (in the final item, the system automatically promotes the last calculated line item as the authoritative Grand) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 297.39 Td (Total.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 285.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 282.89 Td (Heuristic Raw Text Recovery:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 189.52 282.89 Td ( If the JSON response contains irregularities or stray marks,) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 270.39 Td (fallbackParseRawText\(\) extracts lines, tokenizes operands, and passes them to the local in-memory math) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 257.89 Td (engine, guaranteeing zero 'no math found' errors on valid inputs.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 225.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 225.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 229.89 Td (5. In-Memory BODMAS / PEMDAS Math Engine) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 208.89 Td (The MathExpressionEvaluator singleton handles instant, zero-latency calculation across standard arithmetic) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 195.89 Td (and specialized notations:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 182.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 179.39 Td (Standard BODMAS/PEMDAS:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 166.57 179.39 Td ( Evaluates brackets, exponents, division, multiplication, addition, and subtraction) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 166.89 Td (with exact precedence using the Shunting-Yard algorithm and Reverse Polish Notation \(RPN\).) Tj ET
+q 0.114 0.306 0.847 rg 50.0 155.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 152.39 Td (Arbitrary Precision:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 152.8 152.39 Td ( Calculates all operations using java.math.BigDecimal with 10 decimal digits of precision) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 139.89 Td (to prevent floating-point rounding errors.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 128.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 125.38999999999999 Td (Roman Numeral Engine:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 157.39 125.38999999999999 Td ( Converts Roman numbers \(I, V, X, L, C, D, M\) to Arabic integers \(e.g., 'XIV * 5' -> 70\)) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 112.88999999999999 Td (and formats explanations.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 101.38999999999999 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 98.38999999999999 Td (Contextual Percentages & Discounts:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 221.65 98.38999999999999 Td ( Recognizes commercial patterns such as '500 - 10%' -> '500 - \(500 * 10 /) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 85.88999999999999 Td (100\) = 450' and '1000 + 18%' -> 1180.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> /ProcSet [/PDF /Text] >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 7900 >>
+stream
+q 0.85 0.90 0.95 rg 0 0 m 45.0 809.89 m 550.28 809.89 l 0.75 w 0.82 0.86 0.90 RG S Q
+BT /F3 8 Tf 0.35 0.45 0.55 rg
+45.0 813.89 Td (Smart Calculator - Complete System PRD & Architecture Specification) Tj ET
+BT /F2 8 Tf 0.15 0.40 0.80 rg
+465.28 813.89 Td (v1.8 | Build 10) Tj ET
+q 0.82 0.86 0.90 RG 0.75 w 45.0 32 m 550.28 32 l S Q
+BT /F1 8 Tf 0.45 0.50 0.58 rg
+45.0 20 Td (Google AI Studio Build - Production Android Technical Specification) Tj ET
+BT /F1 8 Tf 0.45 0.50 0.58 rg 495.28 20 Td (Page 3 of 4) Tj ET
+q 0.114 0.306 0.847 rg 50.0 786.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 783.39 Td (Single-Variable Linear Equations:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 212.47 783.39 Td ( Detects algebraic expressions such as '2x + 6 = 20' or 'x - 5 = 10' and) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 770.89 Td (computes the value of x.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 759.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 756.39 Td (Zig-Zag Sequential Chains:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 180.34 756.39 Td ( Parses linked calculations containing '->', '=>', or '->' arrows \(e.g., '10 + 20) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 743.89 Td (-> 30 * 2 -> 60'\).) Tj ET
+q 0.114 0.306 0.847 rg 45.0 711.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 711.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 715.89 Td (6. UI & Interactive Breakdown Screen) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 694.89 Td (The results screen provides transparency and user control:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 681.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 678.39 Td (Hero Result Card:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 139.03 678.39 Td ( Prominently displays the Final Grand Total with high-contrast Material 3 typography and a) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 665.89 Td (vibrant 'Final Answer' chip badge.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 654.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 651.39 Td (Horizontal Step Filter Chips:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 194.11 651.39 Td ( Allows users to switch between individual calculation steps. Defaults to) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 638.89 Td (selecting the Grand Total line.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 627.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 624.39 Td (Step-by-Step Audit Trail:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 175.75 624.39 Td ( Displays each recognized step with its original handwritten text alongside the) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 611.89 Td (parsed algebraic expression and individual result.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 600.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 597.39 Td (Live Inline Formula Editing:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 189.52 597.39 Td ( Tapping any recognized step opens an inline editor. Modifying digits or signs) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 584.89 Td (recalculates the step and downstream totals instantaneously.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 573.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 570.39 Td (One-Tap Actions:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 134.44 570.39 Td ( Provides 'Copy Result', 'Scan Again', and 'Open in Calculator' buttons to transfer formulas) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 557.89 Td (into the manual keypad without retyping.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 525.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 525.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 529.89 Td (7. Ultra-Smooth Native Manual Keypad Specification) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 508.89 Td (The manual keypad is engineered for buttery-smooth responsiveness, tactile feedback, and ergonomic) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 495.89 Td (performance:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 482.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 479.39 Td (Micro-Tactile Haptic Feedback:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 198.70000000000002 479.39 Td ( Replaced sluggish vibration motor queues with lightweight TextHandleMove) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 466.89 Td (haptic feedback, preventing latency during fast multi-digit typing.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 455.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 452.39 Td (Hardware-Accelerated Ripples:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 194.11 452.39 Td ( Utilizes Material 3 Surface with combinedClickable, executing touch feedback) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 439.89 Td (directly on the RenderThread with zero dropped frames.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 428.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 425.39 Td (Post-Calculation State Handling:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 207.88 425.39 Td ( Pressing a digit immediately after '=' starts a fresh calculation, while) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 412.89 Td (pressing an operator continues smoothly with the calculated answer.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 401.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 398.39 Td (Continuous Expression Scrolling:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 207.88 398.39 Td ( Horizontal scrolling display automatically tracks and scrolls to the newest) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 385.89 Td (typed characters for long formulas.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 374.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 371.39 Td (Smart Parentheses & Operators:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 198.70000000000002 371.39 Td ( Automatically balances '\(' and '\)' parentheses and seamlessly replaces) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 358.89 Td (duplicate consecutive operators.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 347.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 344.39 Td (Fast Clear Gesture:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 148.21 344.39 Td ( Long-pressing the DEL backspace button immediately clears the entire calculation line.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 332.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 329.89 Td (Cross-Tab State Preservation:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 194.11 329.89 Td ( Synchronized with MainViewModel, preserving in-progress calculations when) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 317.39 Td (toggling between Scan and Calculator tabs.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 285.39 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 285.39 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 289.39 Td (8. Crop, Rotate & Image Workbench) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 268.39 Td (Before OCR execution, users have full control over the captured frame:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 254.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 251.89 Td (Free Aspect Ratio Cropping:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 184.93 251.89 Td ( Interactive 4-corner draggable handles allow arbitrary framing of vertical) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 239.39 Td (receipts, slanted notebook pages, or tight single equations.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 227.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 224.89 Td (90-Degree Lossless Rotation:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 189.52 224.89 Td ( Allows rotating images to orient inverted or landscape handwriting.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 213.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 210.39 Td (Bounding Box Normalization:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 184.93 210.39 Td ( Crop coordinates are normalized between 0.0f and 1.0f, ensuring accurate pixel) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 197.89 Td (extraction on any screen density.) Tj ET
+q 0.114 0.306 0.847 rg 45.0 165.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 165.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 169.89 Td (9. Core Data Models & State Machine) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 148.89 Td (Key immutable domain models driving the application:) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> /ProcSet [/PDF /Text] >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 7458 >>
+stream
+q 0.85 0.90 0.95 rg 0 0 m 45.0 809.89 m 550.28 809.89 l 0.75 w 0.82 0.86 0.90 RG S Q
+BT /F3 8 Tf 0.35 0.45 0.55 rg
+45.0 813.89 Td (Smart Calculator - Complete System PRD & Architecture Specification) Tj ET
+BT /F2 8 Tf 0.15 0.40 0.80 rg
+465.28 813.89 Td (v1.8 | Build 10) Tj ET
+q 0.82 0.86 0.90 RG 0.75 w 45.0 32 m 550.28 32 l S Q
+BT /F1 8 Tf 0.45 0.50 0.58 rg
+45.0 20 Td (Google AI Studio Build - Production Android Technical Specification) Tj ET
+BT /F1 8 Tf 0.45 0.50 0.58 rg 495.28 20 Td (Page 4 of 4) Tj ET
+q 0.114 0.306 0.847 rg 45.0 772.89 505.28 19 re f Q
+BT /F2 8.5 Tf 1 1 1 rg
+51.0 778.89 Td (Model / State) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+161.0 778.89 Td (Primary Fields) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+356.0 778.89 Td (Role in Architecture) Tj ET
+q 0.98 0.99 1.0 rg 45.0 753.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 753.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 759.89 Td (MathOcrResult) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 759.89 Td (foundMath, grandTotal, expressions, note) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 759.89 Td (Parsed vision output representing full image math) Tj ET
+q 0.93 0.96 0.99 rg 45.0 734.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 734.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 740.89 Td (DetectedMathItem) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 740.89 Td (originalText, expression, calculatedResult, isTotal) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 740.89 Td (Individual arithmetic step within a multi-line list) Tj ET
+q 0.98 0.99 1.0 rg 45.0 715.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 715.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 721.89 Td (ScanUiState) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 721.89 Td (Idle, CameraPreview, CropPreview, Processing, Success, Error) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 721.89 Td (Sealed class modeling the complete scan state machine) Tj ET
+q 0.93 0.96 0.99 rg 45.0 696.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 696.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 702.89 Td (ActiveTab) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 702.89 Td (SCAN, CALCULATOR) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 702.89 Td (Root navigation state for top-level app switching) Tj ET
+q 0.98 0.99 1.0 rg 45.0 677.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 677.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 683.89 Td (ThemeMode) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+161.0 683.89 Td (SYSTEM, LIGHT, DARK) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+356.0 683.89 Td (User visual appearance preference state) Tj ET
+q 0.114 0.306 0.847 rg 45.0 643.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 643.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 647.89 Td (10. Edge Cases, Error Handling & Recovery Matrix) Tj ET
+q 0.114 0.306 0.847 rg 45.0 616.89 505.28 19 re f Q
+BT /F2 8.5 Tf 1 1 1 rg
+51.0 622.89 Td (Scenario) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+156.0 622.89 Td (Potential Failure) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg
+276.0 622.89 Td (System Defense & Recovery Action) Tj ET
+q 0.98 0.99 1.0 rg 45.0 597.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 597.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 603.89 Td (Messy / Faint Pencil) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 603.89 Td (Low contrast OCR failure) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 603.89 Td (ColorMatrix 1.45x contrast stretch + kernel edge sharpening) Tj ET
+q 0.93 0.96 0.99 rg 45.0 578.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 578.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 584.89 Td (Blank / Non-Math Photo) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 584.89 Td (False hallucination) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 584.89 Td (foundMath flag set to false, displays clean friendly guidance card) Tj ET
+q 0.98 0.99 1.0 rg 45.0 559.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 559.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 565.89 Td (Zero / Negative Denominator) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 565.89 Td (Arithmetic crash / Infinity) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 565.89 Td (Evaluator catches ArithmeticException and displays 'Division by zero') Tj ET
+q 0.93 0.96 0.99 rg 45.0 540.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 540.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 546.89 Td (Intermediate Step Confusion) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 546.89 Td (Displays 405 instead of 420) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 546.89 Td (Grand Total logic enforces selection of last line item or Total badge) Tj ET
+q 0.98 0.99 1.0 rg 45.0 521.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 521.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 527.89 Td (Network Timeout / Offline) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 527.89 Td (Hangs indefinitely) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 527.89 Td (12s connect / 20s read timeouts with candidate model failover) Tj ET
+q 0.93 0.96 0.99 rg 45.0 502.89 505.28 19 re f Q
+q 0.85 0.89 0.94 RG 0.5 w 45.0 502.89 505.28 19 re S Q
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+51.0 508.89 Td (Fast Rapid Typing) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+156.0 508.89 Td (Button sticking / lag) Tj ET
+BT /F1 8 Tf 0.15 0.22 0.32 rg
+276.0 508.89 Td (RenderThread ripples, non-blocking micro-haptics, pre-allocated key rows) Tj ET
+q 0.114 0.306 0.847 rg 45.0 468.89 4 18 re f Q
+q 0.92 0.95 0.99 rg 53.0 468.89 497.28 18 re f Q
+BT /F2 12 Tf 0.08 0.20 0.55 rg
+61.0 472.89 Td (11. Quality Assurance, Unit Tests & Build Runbook) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 451.89 Td (All business logic, parsing heuristics, and image transformations are validated via automated Robolectric) Tj ET
+BT /F1 9 Tf 0.2 0.25 0.32 rg 45.0 438.89 Td (local JVM test suites:) Tj ET
+q 0.114 0.306 0.847 rg 50.0 425.39 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 422.39 Td (Robolectric Test Runner:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 171.16000000000003 422.39 Td ( Runs under sdk = [36] with Android context mocking \(:app:testDebugUnitTest\).) Tj ET
+q 0.114 0.306 0.847 rg 50.0 410.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 407.89 Td (Grand Total Disambiguation Test:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 207.88 407.89 Td ( Validates that multi-step lists \(e.g. '120 + 35 -> 155; 250 -> 250; Total:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 395.39 Td (405 + 15 = 420'\) choose 420 over 405.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 383.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 380.89 Td (BODMAS Evaluation Tests:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 171.16000000000003 380.89 Td ( Validates operator precedence, Roman numerals \('XIV * 5 = 70'\), implicit) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 368.39 Td (multiplications \('2\(3\) = 6'\), and vertical columns.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 356.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 353.89 Td (Lossless Crop Tests:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 152.8 353.89 Td ( Verifies that normalized crop rectangles yield exact expected pixel dimensions without) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 341.39 Td (memory leaks.) Tj ET
+q 0.114 0.306 0.847 rg 50.0 329.89 3.5 3.5 re f Q
+BT /F2 8.5 Tf 0.10 0.18 0.32 rg 61.0 326.89 Td (Build Verification Command:) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 184.93 326.89 Td ( Run 'gradle :app:testDebugUnitTest' followed by 'compile_applet' to verify) Tj ET
+BT /F1 8.5 Tf 0.22 0.28 0.36 rg 61.0 314.39 Td (pristine zero-warning compilation.) Tj ET
+endstream
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000238 00000 n 
+0000000340 00000 n 
+0000000445 00000 n 
+0000000540 00000 n 
+0000000724 00000 n 
+0000006493 00000 n 
+0000006678 00000 n 
+0000016584 00000 n 
+0000016770 00000 n 
+0000024723 00000 n 
+0000024909 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R >>
+startxref
+32420
+%%EOF

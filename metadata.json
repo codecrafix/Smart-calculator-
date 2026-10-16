@@ -1,0 +1,10 @@
+{
+  "name": "Smart Calculator",
+  "description": "Point. Snap. Solved. Instant AI vision calculator for handwritten and printed math, with manual calculator.",
+  "requestFramePermissions": [
+    "android.permission.CAMERA"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
